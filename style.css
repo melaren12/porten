@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact{
+    background-color: black;
+}
+.cont{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.cont div{
+    display: flex;
+}
+.cont p{
+    color: #969696;
+    padding: 0 5px;
+}
+.cont img{
+    margin-right: 5px;
+}
+.p1{
+    margin-right: 5px;
+    border-right: 1px solid #969696;
+}
+h1{
+    font-family: 'Stick No Bills', sans-serif;
+    color: white;
+    padding: 20px 0;
+    margin: auto 0;
+}
+.main_menu{
+    background-color: #0F0F0F;
+}
+ul{
+    margin: auto 0;
+}
+li{
+    color: #969696;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    transition: color 1s linear;
+    transition: background 1s linear;
+}
+.allmenu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+}
+.img{
+    margin: auto 0;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 1s linear;
+}
+li:hover{
+    background-color: #1F1F1F;
+    color: white;
+}
+.img:hover{
+    background-color: #1F1F1F;
+}
+.sec1{
+    width: 100%;
+    height: 600px;
+    background: url("img/header_bgc.png") no-repeat center top / cover;
+    position: relative;
+}
+.porten{
+    position: absolute;
+    top: 15%;
+    position: relative;
+    margin: 0 auto;
+    width: 320px;
+    height: 320px;
+    border: 3px white solid;
+    color: white;
+}
+.porten h2{
+    font-family: 'Stick No Bills', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+}
+.porten h2:after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: white;
+}
+.div1{
+    width: 60%;
+    margin: 0 auto;
+}
+.div1 h4{
+    width: 50%;
+    margin-top: 120px;
+    width: 100%;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.div h3{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.div{
+    color: white;
+    margin: 25% 0;
+    text-align: center;
+}
+h3{
+    font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.collection h3:after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: #9e9d9d;
+}
+.newcollection{
+    width: 100%;
+    display: flex;
+}
+.collection{
+    flex: 1;
+    padding: 4% 80px 0;
+}
+.catalog{
+    flex: 1;
+    position: relative;
+}
+.group{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
+.group1 img{
+    width: 100%;
+}
+.group1{
+    padding: 55px 22px;
+    text-align: center;
+    background-color: #191B1C;
+}
+.g2 h4{
+    font-family: Playfair Display;
+    font-size: 18px;
+    line-height: 21px;
+}
+.g2 p{
+    font-family: Playfair Display;
+    font-size: 16px;
+    line-height: 19px;
+    color: #D0D0D0;
+}
+.catalog img{
+    width: 100%;
+}
+h2{
+    font-family: Playfair Display;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+h2:after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: #9e9d9d;
+}
+.button{
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 22%;
+}
+.button2{
+    padding: 10px 25px;
+    /*background-color: rgba(0, 0, 0, 0);*/
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition: color 1s linear,background 1s linear;;
+}
+.button2:hover{
+    background-color: rgb(80, 78, 78);
+    color: black;
+}
+.oldcollection{
+    display: flex;
+}
+.oldimg,.text{
+    flex: 1;
+}
+.oldimg img{
+    width: 100%;
+}
+.text{
+    width: 100%;
+    text-align: center;
+}
+.text2{
+    padding: 100px 150px;
+}
+.p{
+    margin: 30px 0;
+}
+.newreceipts{
+    text-align: center;
+}
+.receiptsgroup{
+    width: 80%;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+}
